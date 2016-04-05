@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Morning Practice</title>
+</head>
+<body>
+<!-- Write a function that takes a string as a parameter.
+The function returns the first non-repeated character
+in the string.
+
+I.e,     morning = m
+        bathub - a
+        wooooow - NO RESULT! -->
+
+<script type="text/javascript">
+	// var str1 = "string";
+	// var str2 = "woow";
+	var c;
+	
+	function mine (str){
+		// str1 = str1.split("");
+		// console.log(str1);
+		for (i = 0; i < str.length; i++) {
+
+			c = str[i];
+
+			if( str.indexOf(c) !== str.lastIndexOf(c)) {
+				console.log("NO RESULT!");
+			}else {document.write(c);}
+	
+		}
+		
+	}
+	mine("woowb");
+
+
+	//MY IDEA BIATCH!!!!! WORKS LIKE A CHARM!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
